@@ -8,7 +8,13 @@
         var dataJson = JSON.parse(localStorage.getItem("listQue"));
         var data = dataJson[index];
         this.idQuestion = data.id;
-        Z.showImage("myContainer", data.urlImage);
+        var urlImage = data.urlImage;
+        if(urlImage.includes("img/")){
+            $('#myContainer').css('background-image', 'url("' + urlImage + '")');
+        }
+        else{
+            Z.showImage("myContainer", urlImage);
+        }
         $('#question').html(data.content);
         $('#numOfQuestion').html("Câu hỏi :" + index + "/" + (dataJson.length - 1));
         //
