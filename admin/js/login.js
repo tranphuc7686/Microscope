@@ -28,7 +28,7 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Hủy bỏ</button>
-                            <button type="button" class="btn btn-primary ok-button">Tạo mới</button>
+                            <button type="button" class="btn btn-primary ok-button">Đăng nhập</button>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
             .then(function (response) {
                 // handle success
                 localStorage.setItem("tokenAdmin",response.data["jwttoken"]);
-                location.href = "index.html"
+                location.href = "campaigns.html"
             })
             .catch(function (error) {
                 // handle error
