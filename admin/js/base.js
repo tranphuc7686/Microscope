@@ -1,7 +1,6 @@
 var Base = (function () {
-    // let base_url = "http://52.43.108.161:8181/";
-    var URL_BASE = 'http://127.0.0.1:8080';
-    // var URL_BASE = 'http://52.43.108.161:8181';
+    // var URL_BASE = 'http://127.0.0.1:8080';
+    var URL_BASE = 'http://52.43.108.161:8181';
     var URL_QUIZ = URL_BASE + '/quiz/';
     var URL_USER = URL_BASE + '/user/';
     var URL_QUESTION = URL_BASE + '/question/';
