@@ -7,6 +7,13 @@ var Base = (function () {
     
     var UrlImages = [
         'img/img1',
+        'img/p01-01',
+        'img/p01-02',
+        'img/p01-03',
+        'img/p01-04',
+        'img/p01-05',
+        'img/p01-06',
+        'img/p01-07',
         'zoom/am-tinh',
         'zoom/giun-dua-va-giun-moc',
         'zoom/giun-luong',
