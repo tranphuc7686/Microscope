@@ -10,7 +10,7 @@
         this.idQuestion = data.id;
         var urlImage = data.urlImage;
         if(urlImage.includes("img/")){
-            $('#myContainer').css('background-image', 'url("' + urlImage + '")');
+            $('#myContainer').css('background-image', 'url("' + urlImage + '.png")');
         }
         else{
             Z.showImage("myContainer", urlImage);
