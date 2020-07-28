@@ -23,7 +23,8 @@
       "            <li><a href=\"daotao/enterobius.html\"><i>Enterobius vermicularis</i></a></li>\n" +
       "            <li><a href=\"daotao/strongyloides.html\"><i>Strongyloides stercoralis</i></a></li>\n" +
       "            <li><a href=\"daotao/giardia.html\"><i>Giardia Lamblia</i></a></li>\n" +
-      "            <li><a href=\"daotao/fasciola.html\"><i>Fasciola gigantica</i></a></li>\n" +
+      "            <li><a href=\"daotao/fasciola.html\"><i>Fasciola gigantica/Fasciola hepatica</i></a></li>\n" +
+      "            <li><a href=\"../daotao/timkisinhtrung.html\"><i>Tài liệu - KỸ THUẬT XÉT NGHIỆM PHÂN TÌM KÝ SINH TRÙNG</i></a></li>\n" +
       "        </ul>\n" +
       "    </li>\n" +
       "\n" +
