@@ -138,7 +138,7 @@
             "                                                </td>\n" +
             "                                            </tr>\n" +
             "                                            <tr class=\"spacer\"></tr>"
-        })
+        });
         $('#contentQuestions').append(html);
         $('.btn-delete').on('click', function (e) {
             var id = $(this).data("id");

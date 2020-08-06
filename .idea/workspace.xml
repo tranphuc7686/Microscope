@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcd6c0eb-0bde-4b95-8b7e-75659fd661a1" name="Default Changelist" comment="" />
+    <list default="true" id="bcd6c0eb-0bde-4b95-8b7e-75659fd661a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/js/questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/js/questions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant.js" beforeDir="false" afterPath="$PROJECT_DIR$/constant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/app.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +23,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XWu5XPGTjwmYGBJxFgo1eX82WF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,9 +35,10 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/Microscope" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -118,6 +129,7 @@
       <workItem from="1587881101958" duration="679000" />
       <workItem from="1587886075302" duration="875000" />
       <workItem from="1588261007205" duration="17453000" />
+      <workItem from="1596730859027" duration="683000" />
     </task>
     <servers />
   </component>
@@ -129,39 +141,20 @@
       <screen x="1920" y="0" width="1366" height="728" />
     </state>
     <state x="2446" y="195" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1366.728@1920.0.1366.728" timestamp="1588261591279" />
-    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587885004294" />
-    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584620117754" />
-    <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1581234432951" />
     <state x="92" y="91" width="1736" height="858" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588300178526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="91" width="1736" height="858" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1588300178525" />
-    <state x="92" y="91" width="1736" height="858" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584351985314" />
-    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1581318751684" />
-    <state x="656" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584620091542">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="656" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584620091542" />
-    <state x="656" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1581387127373" />
-    <state x="620" y="163" width="1036" height="866" key="find.popup" timestamp="1588302891467">
+    <state x="620" y="163" width="1036" height="866" key="find.popup" timestamp="1596731031197">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="620" y="163" width="1036" height="866" key="find.popup/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1588302891467" />
     <state x="2361" y="114" width="737" height="606" key="find.popup/0.0.1920.1040/1920.0.1366.728@1920.0.1366.728" timestamp="1588264331153" />
-    <state x="890" y="187" width="944" height="661" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587886413713" />
-    <state x="890" y="187" width="944" height="661" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584527164784" />
-    <state x="342" y="140" width="1235" height="564" key="new project wizard" timestamp="1584364494654">
+    <state x="620" y="163" width="1036" height="866" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596731031197" />
+    <state x="623" y="224" width="942" height="673" key="search.everywhere.popup" timestamp="1596730941276">
       <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="342" y="140" width="1235" height="564" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584364494654" />
-    <state x="616" y="242" key="run.anything.popup" timestamp="1584515007268">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584515007268" />
-    <state x="2363" y="157" width="670" height="471" key="search.everywhere.popup" timestamp="1588262766662">
-      <screen x="1920" y="0" width="1366" height="728" />
     </state>
     <state x="2363" y="157" width="670" height="471" key="search.everywhere.popup/0.0.1920.1040/1920.0.1366.728@1920.0.1366.728" timestamp="1588262766662" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1581231557688" />
+    <state x="623" y="224" width="942" height="673" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596730941276" />
   </component>
 </project>

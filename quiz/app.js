@@ -25,8 +25,9 @@
                 $('#next').css("display", "none");
             }
         }
+        var idUser = localStorage.getItem("idUser");
         $.ajax({
-            url: base_url + "question/" + this.idQuestion,
+            url: base_url + "question/" + this.idQuestion+"/"+idUser,
             type: 'GET',
             // Fetch the stored token from localStorage and set in the header
             headers: {"Authorization": "Bearer " + localStorage.getItem("token")},
