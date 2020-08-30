@@ -8,7 +8,7 @@
         $("#btnCreate").click(function(){
             $modal.modal('show');
         });
-        idQuizSelected = idQuiz
+        idQuizSelected = idQuiz;
         loadPage(idQuiz);
     }
     function loadPage(idQuiz){
@@ -113,7 +113,7 @@
         var html = '';
         quizs.forEach(function(e){
             html = html + " <option value='"+e.id+"'>"+e.name+"</option>";
-        })
+        });
         $('#contentQuizs').append(html);
         $('#contentQuizs').on('change', function (e) {
             init(this.value);

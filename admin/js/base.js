@@ -4,7 +4,8 @@ var Base = (function () {
     var URL_QUIZ = URL_BASE + '/quiz/';
     var URL_USER = URL_BASE + '/user/';
     var URL_QUESTION = URL_BASE + '/question/';
-    
+    var URL_REPORTS = URL_QUIZ + 'reports/';
+
     var UrlImages = [
         'img/img1',
         'img/p01-01',
@@ -45,6 +46,10 @@ var Base = (function () {
                             <li>
                                 <a href="questions.html">
                                     <i class="fas fa-table"></i>Questions</a>
+                            </li>
+                            <li>
+                                <a href="report.html">
+                                    <i class="fas fa-table"></i>Reports</a>
                             </li>
                         </ul>
                     </nav>
@@ -185,6 +190,7 @@ var Base = (function () {
         URL_USER:URL_USER,
         URL_BASE:URL_BASE,
         URL_QUESTION:URL_QUESTION,
+        URL_REPORTS:URL_REPORTS,
         UrlImages:UrlImages
 
     }
