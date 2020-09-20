@@ -8,6 +8,9 @@
         $("#btnCreate").click(function(){
             $modal.modal('show');
         });
+        $("#btnDownloadReports").click(function(){
+            dowloadReport();
+        });
         idQuizSelected = idQuiz;
         loadPage(idQuiz);
     }
@@ -24,176 +27,176 @@
             var reports = [
                 {
                     id: 1,
-                    departmentId:'DN0101',
+                    departmentId:'TGG*01',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV01-02062020'
                 },
                 {
                     id: 2,
-                    departmentId:'DN0101',
+                    departmentId:'HCM*23',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV02-03062020'
                 },
                 {
                     id: 3,
-                    departmentId:'DN0101',
+                    departmentId:'BTV*02',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV03-02062020'
                 },
                 {
                     id: 4,
-                    departmentId:'DN0101',
+                    departmentId:'KHA*03',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV04-03062020'
                 },
                 {
                     id: 5,
-                    departmentId:'DN0101',
+                    departmentId:'HCM*12',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV05-04062020'
                 },
                 {
                     id: 6,
-                    departmentId:'DN0101',
+                    departmentId:'HCM*37',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV06-03062020'
                 },
                 {
                     id: 7,
-                    departmentId:'DN0101',
+                    departmentId:'HCM*38',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV07-03062020'
                 },
                 {
                     id: 8,
-                    departmentId:'DN0101',
+                    departmentId:'DNI*11',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV08-02062020'
                 },
                 {
                     id: 9,
-                    departmentId:'DN0101',
+                    departmentId:'DNI*22',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV09-03062020'
                 },
                 {
                     id: 10,
-                    departmentId:'DN0101',
+                    departmentId:'DNI*24',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV10-04062020'
                 },
                 {
                     id: 11,
-                    departmentId:'DN0101',
+                    departmentId:'HCM*28',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV11-03062020'
                 },
                 {
                     id: 12,
-                    departmentId:'DN0101',
+                    departmentId:'BDG*02',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV12-03062020'
                 },
                 {
                     id: 13,
-                    departmentId:'DN0101',
+                    departmentId:'HCM*32',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV13-02062020'
                 },
                 {
                     id: 14,
-                    departmentId:'DN0101',
+                    departmentId:'BLI*09',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV14-03062020'
                 },
                 {
                     id: 15,
-                    departmentId:'DN0101',
+                    departmentId:'VLG*04',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV15-03062020'
                 },
                 {
                     id: 16,
-                    departmentId:'DN0101',
+                    departmentId:'HCM*15',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV16-02062020'
                 },
                 {
                     id: 17,
-                    departmentId:'DN0101',
+                    departmentId:'HCM*33',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV17-03062020'
                 },
                 {
                     id: 18,
-                    departmentId:'DN0101',
+                    departmentId:'HCM*30',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV18-03062020'
                 },{
                     id: 19,
-                    departmentId:'DN0101',
+                    departmentId:'TVH*05',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV19-03062020'
                 },{
                     id: 20,
-                    departmentId:'DN0101',
+                    departmentId:'TVH*11',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV20-03062020'
                 },{
                     id: 21,
-                    departmentId:'DN0101',
+                    departmentId:'HCM*21',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV21-02062020'
                 },{
                     id: 22,
-                    departmentId:'DN0101',
+                    departmentId:'HCM*25',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV22-03062020'
                 },{
                     id: 23,
-                    departmentId:'DN0101',
+                    departmentId:'HCM*31',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV23-04062020'
                 },
                 {
                     id: 24,
-                    departmentId:'DN0101',
+                    departmentId:'BVU*04',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV24-03062020'
                 },
                 {
                     id: 25,
-                    departmentId:'DN0101',
+                    departmentId:'TNH*05',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV25-04062020'
                 },
                 {
                     id: 26,
-                    departmentId:'DN0101',
+                    departmentId:'NAH*07',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV26-03062020'
                 },
                 {
                     id: 27,
-                    departmentId:'DN0101',
+                    departmentId:'HNI*01',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV27-03062020'
                 },
                 {
                     id: 28,
-                    departmentId:'DN0101',
+                    departmentId:'QNH*04',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV28-03062020'
                 },
                 {
                     id: 29,
-                    departmentId:'DN0101',
+                    departmentId:'THO*01',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV29-02062020'
                 },
                 {
                     id: 30,
-                    departmentId:'DN0101',
+                    departmentId:'HDG*02',
                     sendTime:new Date().toString(),
                     fileName:'Report-PDV30-03062020'
                 }
@@ -331,8 +334,14 @@
 
 
     function dowloadReport(reportName) {
+        var urlDownload = Base.URL_REPORTS;
+        var fileName = 'reports.rar';
+        if(reportName){
+            urlDownload = Base.URL_REPORTS + reportName;
+            fileName = reportName+'.docx';
+        }
         axios
-            .get(Base.URL_REPORTS + reportName, {
+            .get(urlDownload, {
                 responseType: 'arraybuffer',
                 headers: {
                     Authorization:
@@ -341,11 +350,11 @@
             })
             .then(function (response) {
                 // handle success
-                const type = response.headers['content-type']
+                const type = response.headers['content-type'];
                 const blob = new Blob([response.data], { type: type, encoding: 'UTF-8' })
                 const link = document.createElement('a');
                 link.href = window.URL.createObjectURL(blob);
-                link.download = reportName+'.docx';
+                link.download = fileName;
                 link.click();
             })
             .catch(function (error) {
